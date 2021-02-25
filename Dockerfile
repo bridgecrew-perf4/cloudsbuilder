@@ -2,15 +2,15 @@ FROM golang:alpine as builder
 
 # Versions Variables
 # Vault
-ENV VAULT_VERSION=1.6.1
+ENV VAULT_VERSION=1.6.2
 # Terraform
-ENV TERRAFORM_VERSION=0.14.5
+ENV TERRAFORM_VERSION=0.14.7
 ENV TF_DEV=true
 ENV TF_RELEASE=true
 # Ansible
 ENV ANSIBLE_VERSION=2.10
 # Packer
-ENV PACKER_VERSION=1.6.6
+ENV PACKER_VERSION=1.7.0
 
 RUN apk -U add ca-certificates git bash unzip wget openssl \
         py3-openssl openssh-client py3-pip python3 build-base \
