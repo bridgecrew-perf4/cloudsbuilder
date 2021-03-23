@@ -5,8 +5,8 @@ Cloudsbuilder is docker image that has most of commonly used components like Pac
 
 |    Name   | Version |
 |-----------|---------|
-| Terraform | 0.14.7  |
-| Vault     | 1.6.2   |
+| Terraform | 0.14.8  |
+| Vault     | 1.6.3   |
 | Packer    | 1.7.0   |
 | Ansible   | 2.10.6 / 3.0.0        |
 
