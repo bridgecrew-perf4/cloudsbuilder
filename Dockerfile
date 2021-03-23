@@ -2,9 +2,9 @@ FROM golang:alpine as builder
 
 # Versions Variables
 # Vault
-ENV VAULT_VERSION=1.6.2
+ENV VAULT_VERSION=1.6.3
 # Terraform
-ENV TERRAFORM_VERSION=0.14.7
+ENV TERRAFORM_VERSION=0.14.8
 ENV TF_DEV=true
 ENV TF_RELEASE=true
 # Ansible
